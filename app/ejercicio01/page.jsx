@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 
 const Ejercicio01 = () => {
+    const width = typeof window !== 'undefined' ? window.document.documentElement.clientWidth : 0;
     const [palabra,setPalabra] = useState('')
     const [resultado,setResultado] = useState('')
     const input = document.getElementById('input');
