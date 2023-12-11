@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const Ejercicio01 = () => {
     const [palabra,setPalabra] = useState('')
     const [resultado,setResultado] = useState('')
-    const input = document.getElementById('input');
+   // const input = document.getElementById('input');
 
     const matriz = [
         [1,200,200],
